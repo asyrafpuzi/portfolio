@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" fill="none">
+  <rect width="400" height="220" rx="14" fill="#10253b"/>
+  <rect x="1" y="1" width="398" height="218" rx="13" stroke="#a9c6e42c" stroke-width="2"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="55" x2="400" y2="55" stroke="#a9c6e416" stroke-width="1"/>
+  <line x1="0" y1="110" x2="400" y2="110" stroke="#a9c6e416" stroke-width="1"/>
+  <line x1="0" y1="165" x2="400" y2="165" stroke="#a9c6e416" stroke-width="1"/>
+  <line x1="100" y1="0" x2="100" y2="220" stroke="#a9c6e416" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="220" stroke="#a9c6e416" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="220" stroke="#a9c6e416" stroke-width="1"/>
+  <!-- Glow circle -->
+  <circle cx="200" cy="110" r="80" fill="url(#glowGrad)"/>
+  <!-- Code icon -->
+  <text x="200" y="125" text-anchor="middle" font-family="monospace" font-size="52" fill="#afcde9" opacity="0.9">{ }</text>
+  <!-- Label -->
+  <text x="200" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#afcde9">Project Preview</text>
+  <defs>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5d98cc" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#5d98cc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

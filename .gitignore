@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+dist/
+/Certificates/
+/Resume - Muhammad Asyraf Bin Mohamad Puzi.pdf
+/templateiuse.txt
